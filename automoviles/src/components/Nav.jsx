@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './Nav.css'
 
 function Nav() {
@@ -6,7 +7,9 @@ function Nav() {
     <>
       <div className="navbar bg-light fixed-top ">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">Modelos</a>
+          <Link to="/">
+              <a className="navbar-brand">Modelos</a>
+          </Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -18,59 +21,61 @@ function Nav() {
               <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <div className='modelos'>
                   <li className="nav-item">
-                   <a className="nav-link active " aria-current="page" href="#">Modelos</a>
+                   <Link to="/">
+                      <a className="nav-link active " aria-current="page" >Modelos</a>
+                    </Link>
                   </li>
                   <li className="nav-item">
-                   <a className="nav-link active" href="#">Servicios y Accesorios</a>
+                   <a className="nav-link active" >Servicios y Accesorios</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link active" href="#">Financiacion</a>
+                  <a className="nav-link active" >Financiacion</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link active" href="#">Review y Comunidad</a>
+                  <a className="nav-link active" >Review y Comunidad</a>
                 </li>
                 </div >
                 <div className='modelos'>
                 <li className="nav-item">
-                  <a className="nav-link active" href="#">Toyota Mobility Service</a>
+                  <a className="nav-link active" >Toyota Mobility Service</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link active" href="#">Toyota Gazoo Racing</a>
+                  <a className="nav-link active" >Toyota Gazoo Racing</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link active" href="#">Toyota Hibrido</a>
+                  <a className="nav-link active" >Toyota Hibrido</a>
                 </li>
                 </div>
                 <div className='modelos'>
                 <li className="nav-item">
-                  <a className="nav-link active" href="#">Concesionarios</a>
+                  <a className="nav-link active" >Concesionarios</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link active" href="#">Test Drive</a>
+                  <a className="nav-link active" >Test Drive</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link active" href="#">Contacto</a>
+                  <a className="nav-link active" >Contacto</a>
                 </li>
                 <hr className="dropdown-divider"/>
                 </div>
                 <div className='oscuro'>
                 <li className="nav-item">
-                  <a className="nav-link active" href="#">Actividades</a>
+                  <a className="nav-link active" >Actividades</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link active" href="#">Servicios al Cliente</a>
+                  <a className="nav-link active" >Servicios al Cliente</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link active" href="#">Ventas Especiales</a>
+                  <a className="nav-link active" >Ventas Especiales</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link active" href="#">Innovacion</a>
+                  <a className="nav-link active" >Innovacion</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link active" href="#">Prensa</a>
+                  <a className="nav-link active" >Prensa</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link active" href="#">Acerca de...</a>
+                  <a className="nav-link active" >Acerca de...</a>
                 </li>
                 </div>
                 
