@@ -1,0 +1,16 @@
+
+.containerCard{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: auto;
+    margin: auto; 
+    
+  }
+
+.card{
+    padding: auto;
+    margin-top: 40px; 
+    width: 300px;
+    height: 345px;
+    text-align: center;
+}
