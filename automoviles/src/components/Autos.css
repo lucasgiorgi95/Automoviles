@@ -14,3 +14,30 @@
     height: 345px;
     text-align: center;
 }
+
+@media screen and (max-width:1200px ){
+  .containerCard{
+    display: grid;
+    grid-template-columns: 30% 30% 30% ;
+    padding: auto;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width:1050px ){
+  .containerCard{
+    display: grid;
+    grid-template-columns: 50% 50% ;
+    padding: auto;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width:650px ){
+  .containerCard{
+    display: grid;
+    grid-template-columns: 100%  ; 
+    padding: auto;
+    margin: auto;
+  }
+}

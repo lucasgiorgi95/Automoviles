@@ -32,3 +32,28 @@
 .select span{
     font-weight: 900;
 }
+
+@media screen and (max-width:900px ){
+    .filterContainer{
+     font-size: 15px;
+    }
+    .filter Button{
+        font-size: 10px;
+        margin-left: 10px;
+        border-radius: 25px;
+    }
+  }
+
+  @media screen and (max-width:700px ){
+    .filterContainer{
+      display: grid;
+        grid-template-columns: 50% 50% ;
+        padding: auto;
+        margin: auto;
+    }
+    .filter Button{
+        font-size: 10px;
+        margin-left: 16px;
+        border-radius: 25px;
+    }
+  }

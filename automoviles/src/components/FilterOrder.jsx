@@ -21,6 +21,8 @@ function filter (e){
 }
 
   return (
+    <>
+    <h1 className='titulo'>Descubri todos los modelos</h1>
     <div className='filterContainer'>
         <div className='filter'>
         Filtrar por: 
@@ -40,6 +42,7 @@ function filter (e){
               </select>
         </div>
     </div>
+    </>
   )
 }
 
